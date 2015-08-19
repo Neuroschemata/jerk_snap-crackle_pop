@@ -15,7 +15,7 @@ The remainder of this document describes how to use the code.
 
 Requires Python3, Pandas, Numpy, Theano, and Lasagne.
 
-Instructions for installing Theano and getting it to run on the GPU can be found [here](http://deeplearning.net/software/theano/install.html).
+Instructions for installing Theano and getting it to run on a GPU can be found [here](http://deeplearning.net/software/theano/install.html).
 
 Instructions for installing Lasagne can be found [here](http://lasagne.readthedocs.org/en/latest/user/installation.html).
 
