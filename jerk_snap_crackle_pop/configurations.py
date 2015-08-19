@@ -1,7 +1,7 @@
 """
 N=2730,K=200,gpu_slab_size=N*K//50
 runtime_configuration stores the network parameters
-data_logs stores info pertaining to data loading and saving, 
+data_logs stores info pertaining to data loading and saving,
 as well as live displays.
 """
 runtime_configuration = {'train_from_scratch': True, \
@@ -12,7 +12,7 @@ runtime_configuration = {'train_from_scratch': True, \
                           'gpu_slab_size':10920,\
                           'num_conv_filters':128,\
                           'num_units_dense_layer':128,\
-                          'num_epochs':2,\
+                          'num_epochs':10,\
                           'eta':0.01,\
                           'momentum':0.9,\
                           'dropout_fraction':0.2,\
