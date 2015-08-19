@@ -6,7 +6,7 @@ first, second, third and fourth derivatives of acceleration, and
 are a crucial component of the features extracted to solve the telematics
 problem posed [here](https://www.kaggle.com/c/axa-driver-telematics-analysis).
 
-Details about the solution and the code is available in `doc/documentation.pdf`.
+Details about the solution and the code is available in `doc/synopsis.pdf`.
 The remainder of this document describes how to use the code.
 
 ## Quick Guide To The Code
