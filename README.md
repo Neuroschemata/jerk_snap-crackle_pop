@@ -41,9 +41,10 @@ folder named 'preprocessed/data/drivers'.
 by running `python3 main.py`.
 * The training parameters can be set in the configuration file `configurations.py`.
 
+
 |  Parameter        | Description |
-|: ------------------------: |-------------|
-| `train_from_scratch`     | If `True`, trains the network using randomly initialized parameters. If `False`, trains using parameters from a previous training run, located in `path_to_pretrained_model`.|
+|:------------------|:------------|
+| `train_from_scratch`     | If `True`, trains the network using randomly initialized parameters. If `False`, trains using parameters from a previous training run, assumed to be located in `path_to_pretrained_model`.|
 |`path_to_pretrained_model`|specifies the location of pre-trained network parameters.|
 |`train_val_ratio`| specifies the ratio of the size of the training data to the size of the validation data.|
 |`minibatch_size`| specifies the size of the mini-batches used during training.|
@@ -56,7 +57,6 @@ by running `python3 main.py`.
 |`momentum`| specifies the value for the momentum.|
 |`dropout_fraction`|species the fraction of units randomly picked by "dropout".|
 |`randseed`| species the seed for the random-number-generator used.|
-
 ### Observations/Afterthoughts
 1. Lack of support for multiple GPUs.
  * As written, the code takes advantage of a single
