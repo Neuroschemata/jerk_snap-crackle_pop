@@ -6,7 +6,7 @@ first, second, third and fourth derivatives of acceleration, and
 are a crucial component of the features extracted to solve the telematics
 problem posed [here](https://www.kaggle.com/c/axa-driver-telematics-analysis).
 
-Details about the solution and the code is available in `doc/documentation.pdf`.
+Details about the solution and the code is available in `docs/synopsis.pdf`.
 The remainder of this document describes how to use the code.
 
 ## Quick Guide To The Code
@@ -52,11 +52,11 @@ by running `python3 main.py`.
 |`gpu_slab_size`|specifies the size of the loads to be parallelized.|
 |`num_conv_filters`|specifies the number of convolution filters.|
 |`num_units_dense_layer`| specifies the number of units in the dense layers.|
-|`num_epochs`|species the number of complete passes through the data.|
+|`num_epochs`|specifies the number of complete passes through the data.|
 |`eta `| specifies the learning rate.|
 |`momentum`| specifies the value for the momentum.|
-|`dropout_fraction`|species the fraction of units randomly picked by "dropout".|
-|`randseed`| species the seed for the random-number-generator used.|
+|`dropout_fraction`|specifies the fraction of units randomly picked by "dropout".|
+|`randseed`| specifies the seed for the random-number-generator used.|
 ### Observations/Afterthoughts
 1. Lack of support for multiple GPUs.
  * As written, the code takes advantage of a single
