@@ -16,3 +16,4 @@ epoch 	 loss 	 correct predictions (train) 	 correct predictions (validate)
 1 	 1.6868531276920822 	 0.2125 	 0.2 
 0 	 2.1455209645257773 	 0.29875 	 0.2 
 1 	 1.6868531276920822 	 0.2125 	 0.2 
+0 	 2.1455209645257773 	 0.29875 	 0.2 

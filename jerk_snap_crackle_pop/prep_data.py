@@ -6,12 +6,12 @@
     (4) Each subdirectory "data/drivers/i" contains K=200 csv files corresponding
         to driver i's trip data. Let the files be labeled by "k=1:K"
     (5) Each trip "k" consists of a pair of time-dependent coordinates
-        (x(t),y(t)) in time-steps of length dt=1 second
+        (x[t],y[t]) in time-steps of length dt=1 second
     (6) We first go through the entire dataset and extract the duration of
         the longest trip, which we call Tmax
-    (7) Suppose that the "kth" trip made by driver "i" lasts for T_(i,k) seconds
-        with  T_(i,k) < Tmax ...
-        ... then we set x(t),y(t)=x(T_(i,k)),y(T_(i,k)) for all t>T_(i,k)
+    (7) Suppose that the "kth" trip made by driver "i" lasts for T_ik seconds
+        with  T_ik < Tmax ...
+        ... then we set x[t],y[t]=x[T_ik],y[T_ik] for all t>T_ik
         This ensures that all trips have the same length.
 
     Features:
