@@ -4,15 +4,9 @@ jerk, snap, crackle & pop
 The terms jerk, snap, crackle and pop respectively refer to the
 first, second, third and fourth derivatives of acceleration, and
 are a crucial component of the features extracted to solve the telematics
-<<<<<<< HEAD
-problem posed [here](https://www.kaggle.com/c/axa-driver-telematics-analysis.
-
-Details about the solution and the code is available in `doc/documentation.pdf`.
-=======
 problem posed [here](https://www.kaggle.com/c/axa-driver-telematics-analysis).
 
 Details about the solution and the code is available in `docs/synopsis.pdf`.
->>>>>>> b207544ce120895082427d0bd92a013450066c33
 The remainder of this document describes how to use the code.
 
 ## Quick Guide To The Code
@@ -21,11 +15,7 @@ The remainder of this document describes how to use the code.
 
 Requires Python3, Pandas, Numpy, Theano, and Lasagne.
 
-<<<<<<< HEAD
-Instructions for installing Theano and getting it to run on the GPU can be found [here](http://deeplearning.net/software/theano/install.html).
-=======
 Instructions for installing Theano and getting it to run on a GPU can be found [here](http://deeplearning.net/software/theano/install.html).
->>>>>>> b207544ce120895082427d0bd92a013450066c33
 
 Instructions for installing Lasagne can be found [here](http://lasagne.readthedocs.org/en/latest/user/installation.html).
 
@@ -51,16 +41,10 @@ folder named 'preprocessed/data/drivers'.
 by running `python3 main.py`.
 * The training parameters can be set in the configuration file `configurations.py`.
 
-<<<<<<< HEAD
-|  Parameter        | Description |
-|: ------------------------: |-------------|
-| `train_from_scratch`     | If `True`, trains the network using randomly initialized parameters. If `False`, trains using parameters from a previous training run, located in `path_to_pretrained_model`.|
-=======
 
 |  Parameter        | Description |
 |:------------------|:------------|
 | `train_from_scratch`     | If `True`, trains the network using randomly initialized parameters. If `False`, trains using parameters from a previous training run, assumed to be located in `path_to_pretrained_model`.|
->>>>>>> b207544ce120895082427d0bd92a013450066c33
 |`path_to_pretrained_model`|specifies the location of pre-trained network parameters.|
 |`train_val_ratio`| specifies the ratio of the size of the training data to the size of the validation data.|
 |`minibatch_size`| specifies the size of the mini-batches used during training.|
@@ -68,20 +52,11 @@ by running `python3 main.py`.
 |`gpu_slab_size`|specifies the size of the loads to be parallelized.|
 |`num_conv_filters`|specifies the number of convolution filters.|
 |`num_units_dense_layer`| specifies the number of units in the dense layers.|
-<<<<<<< HEAD
-|`num_epochs`|species the number of complete passes through the data.|
-|`eta `| specifies the learning rate.|
-|`momentum`| specifies the value for the momentum.|
-|`dropout_fraction`|species the fraction of units randomly picked by "dropout".|
-|`randseed`| species the seed for the random-number-generator used.|
-
-=======
 |`num_epochs`|specifies the number of complete passes through the data.|
 |`eta `| specifies the learning rate.|
 |`momentum`| specifies the value for the momentum.|
 |`dropout_fraction`|specifies the fraction of units randomly picked by "dropout".|
 |`randseed`| specifies the seed for the random-number-generator used.|
->>>>>>> b207544ce120895082427d0bd92a013450066c33
 ### Observations/Afterthoughts
 1. Lack of support for multiple GPUs.
  * As written, the code takes advantage of a single
