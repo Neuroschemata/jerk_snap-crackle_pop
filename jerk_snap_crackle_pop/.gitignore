@@ -1,0 +1,25 @@
+# Pycharm and OS-X files
+.idea/
+.DS_Store
+
+# Data folder
+data/*
+!.gitkeep
+
+# Temporary files
+temp_*
+*_temp.*
+*.tmp
+
+# pycache
+__pycache__
+
+# results
+results
+
+# nohup and outputs
+nohup*
+*.out
+
+# Don't include the submission report
+report
