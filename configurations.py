@@ -4,7 +4,7 @@
 - data_logs stores info pertaining to data loading and saving,
   as well as live displays.
 """
-runtime_configuration = { 'num_epochs':1,\
+runtime_configuration = { 'num_epochs':10,\ # set to 10 for demo purposes
                           'eta':0.01,\
                           'momentum':0.9,\
                           'dropout_fraction':0.2,\
